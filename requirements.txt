@@ -1,0 +1,4 @@
+labelme
+opencv-python
+scikit-image
+selenium

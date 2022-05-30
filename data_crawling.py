@@ -4,7 +4,8 @@ import time
 import urllib.request
 import os
 
-
+# Reference
+# https://github.com/youtube-jocoding/python-selenium-google-image-crawling/blob/master/google.py
 
 driver = webdriver.Chrome('C:/chromedriver.exe')
 driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&authuser=0&ogbl")
