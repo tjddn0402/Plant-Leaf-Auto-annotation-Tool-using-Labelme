@@ -10,7 +10,7 @@ import os
 driver = webdriver.Chrome('C:/chromedriver.exe')
 driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&authuser=0&ogbl")
 elem = driver.find_element_by_name("q")
-elem.send_keys("박새 잎")
+elem.send_keys("은방울꽃 잎")
 elem.send_keys(Keys.RETURN)
 
 SCROLL_PAUSE_TIME = 1
@@ -31,7 +31,7 @@ while True:
     last_height = new_height
 
 images = driver.find_elements_by_css_selector(".rg_i.Q4LuWd")
-path = "./박새/"
+path = "./EUNBANGUL/"
 if not os.path.exists(path):
     os.mkdir(path)
 count = 1

@@ -1,9 +1,5 @@
 Labelme Annotation Aiding Tool (LAAT) based on HSV color space & Morphological Operation
 ===================
-2022-1 Digital Image Processing (영상시스템 설계)  Project
-INHA Univ.
-Dept. of Electronic Engineering
-김성우(Seongwoo Kim)
 
 # 0. How to Use
 
@@ -17,7 +13,6 @@ Windows10
 |numpy           |    1.22.2
 |opencv-python   |    4.5.5.62
 |scikit-image    |    0.19.2
-|selenium       |     4.1.5
 
 # 1. Background
 
