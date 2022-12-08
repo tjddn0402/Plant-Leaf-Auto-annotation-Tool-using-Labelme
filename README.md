@@ -1,8 +1,3 @@
-Labelme Annotation Aiding Tool (LAAT) based on HSV color space & Morphological Operation
-===================
-
-# 0. How to Use
-
 ### Tested Environment
 Windows10
 |Package            | Version|
@@ -13,18 +8,4 @@ Windows10
 |numpy           |    1.22.2
 |opencv-python   |    4.5.5.62
 |scikit-image    |    0.19.2
-
-# 1. Background
-
-# 2. Data Collection
-
-# 3. Segmentation based on HSV Color Space
-
-# 4. Extract Mask Image
-
-# 5. Adjust Mask Image using Morphological Operation
-
-# 6. Extract Polygon from Mask Image
-
-# 7. Convert to labelme json format
 
